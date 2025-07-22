@@ -109,7 +109,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 100px 75px 50px;
+    padding: 100px 200px 50px;
 }
 
 .intro {
@@ -123,4 +123,36 @@ button {
     font-size: 30px;
     font-weight: 900;
     text-align: right;
+}
+
+.action {
+    padding: 100px 75px;
+}
+
+.card {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.card-text {
+    margin-right: auto;
+}
+
+.action-button {
+    border: 3px solid white;
+}
+
+.card-header {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.card-subtext {
+    font-size: 18px;
+    margin: 5px;
 }
